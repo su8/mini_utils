@@ -121,7 +121,7 @@ err:
 
 static void 
 read_from_stdin(void) {
-  char buf[M256] = {'\0'};
+  char buf[256] = {'\0'};
   size_t dummy = 0;
   FILE *fp = NULL;
 
